@@ -1,0 +1,100 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: Josefin Sans, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+a:hover , a:visited {
+  color: black;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  text-align: center;
+  top: auto;
+  width: 100%;
+  background-color: green;
+  position: fixed;
+  height: 100px;
+}
+
+#github {
+  padding: 10px;
+  margin: 40px;
+}
+
+main {
+  text-indent: 20px;
+  text-align: justify;
+  margin: auto;
+  width: 60%;
+  padding-top: 100px;
+}
+
+main img {
+  margin: 20px 0;
+  border-radius: 50%;
+  display: block;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+main article h2 {
+  text-align: center;
+}
+
+.lado-esquerdo {
+  margin: 10px 20px 0 0;
+  width: 25%;
+  display: inline-block;
+}
+
+.lado-esquerdo h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.lado-direito {
+  position: absolute;
+  width: 40%;
+  display: inline-block;
+}
+
+.lado-direito h2 {
+  margin-bottom: 10px;
+}
+
+.listas {
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+#licoes_aprendidas {
+  margin: 0 0 20px;
+  line-height: 20px;
+}
+
+#licoes_aprendidas h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#licoes_a_aprender h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#tabela {
+  border: 1px solid;
+  text-align: center;
+  margin: 0 0 10px;
+}
